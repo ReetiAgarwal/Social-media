@@ -1,0 +1,17 @@
+.Friend{
+    display: flex;
+    align-items: center;
+    margin-bottom : 15px;
+}
+
+.friendName{
+    margin-left:15px;
+    cursor:pointer;
+}
+
+.friendImage{
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    object-fit:cover;
+}

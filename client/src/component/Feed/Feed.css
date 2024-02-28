@@ -1,0 +1,22 @@
+.feed{
+    flex:6;
+}
+
+.feedWrapper{
+    padding:20px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px){
+    .sidebar{
+        flex:5;
+    }
+}

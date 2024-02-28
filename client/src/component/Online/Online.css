@@ -1,0 +1,33 @@
+.Friend{
+    display:flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.profileImageContainer{
+    margin-right: 10px;
+    position:relative;
+}
+
+.FriendprofileImage{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.OnlineFriends{
+    width:12px;
+    height:12px;
+    border-radius: 50%;
+    background-color: lightgreen;
+    position:absolute;
+    right:-6px;
+    top:-2px;
+    border:2px solid white;
+}
+
+.OnlineUserName{
+    font-weight: bold;
+    font-size:14px;
+}

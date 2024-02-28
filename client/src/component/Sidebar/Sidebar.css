@@ -1,0 +1,71 @@
+/* top is necessary to give along with sticky position. */
+.sidebar{
+    flex:2;
+    height: calc(100vh - 50px);
+    font-size:14px;
+    overflow-y:scroll;
+    position:sticky;
+    top:50px;
+}
+
+::-webkit-scrollbar{
+    width:7px;
+}
+
+::-webkit-scrollbar-track{
+    background-color:#f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:rgb(179,179,179);
+}
+
+.wrapper{
+    padding:20px;
+    font-weight:bold;
+}
+
+.list{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+/* to make icon aligned with text */
+.listItems{
+    display:flex;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.text{
+    cursor:pointer;
+    margin-left:15px;
+}
+
+.more{
+    border:none;
+    padding:10px;
+    width:150px;
+    border-radius:5px;
+    font-weight:bold;
+    font-size:15px;
+    cursor:pointer;
+}
+
+.hr{
+    margin:10px 0;
+}
+
+.FriendList{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+
+@media screen and (max-width:800px){
+    .sidebar{
+        flex:4;
+    }
+}
