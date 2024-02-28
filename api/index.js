@@ -31,4 +31,4 @@ app.use("/api/posts",postRoute);
 //     res.send("Welcome to userspage")
 // });
 
-app.listen(5000,()=>console.log("App is running at server 5000"));
+app.listen(7000,()=>console.log("App is running at server 7000"));
